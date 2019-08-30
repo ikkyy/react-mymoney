@@ -74,6 +74,4 @@ const init = baseURL => {
     }
 }
 
-
-
 export default init
