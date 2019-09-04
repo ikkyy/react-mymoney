@@ -12,7 +12,7 @@ const reducer = (state, action) => {
     if (action.type === 'REQUEST') {
         return {
             ...state,
-            loading: false
+            loading: true //false
         }
     }
     if (action.type === 'SUCCESS') {
